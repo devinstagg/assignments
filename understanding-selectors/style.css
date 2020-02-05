@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900&display=swap');
+
+html{
+  font-family: Roboto;
+  display: flex;
+  
+}
+
+.red {
+  background: red;
+  width: 401px;
+  height: 285px;
+  color:  white;  
+  border-radius: 25px;
+}
+
+.hello {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+.title {
+  text-align: center;
+  margin-top: -65px;
+  font-size: 35px;
+  height: 20px;
+  font-weight: 100;
+}
+
+.white {
+  background: white;
+  height: 160px;
+  margin-top: 20px;
+}
+
+.name {
+  color: black;
+  font-size: 80px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 35px;
+  font-weight: 500;
+}
+
+
