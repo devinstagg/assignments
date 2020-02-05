@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+	<movie title="Star Wars Episode 7" rating="PG-13" time="2 hours 32 minutes" category="action">
+		<actors>
+			<actor name="Mark Hamill" character="Luke Skywalker/Dobbu Scay" gender="male></actor>
+			<actor name="Carrie Fisher" character="Leia Organa" gender="female"></actor>
+			<actor name="Adam Driver" character="Kylo Ren" gender="female"></actor>
+			<actor name="Daisy Ridley" character="Rey" gender="female"></actor>
+		</actors>
+		<crews>
+			<crew name="Rian Johnson" title="Director"></crew>
+			<crew name="George Lucas" title="Writer"></crew>
+			<crew name="J.J. Abrams" title="Executive Producer"></crew>
+			<crew name="Pippa Anderson" title="Co-Producer"></crew>
+		</crews>
+	</movie>
+	<movie title="The Lord of the Rings: The Fellowship of the Ring" rating="PG-13" time="2 hours 58 minuntes" category="action">
+		<actors>
+			<actor name="Elijah Wood" character="Frodo Baggins" gender="male"></actor>
+			<actor name="Sean Astin" character="Sam" gender="male"></actor>
+			<actor name="Sala Baker" character="Sauron" gender="male"></actor>
+			<actor name="Cate Blanchett" character="Galadriel" gender="female"></actor>
+		</actors>
+		<crew>
+			<crew name="Peter Jackson" title="Director"></crew>
+			<crew name="J.R.R. Tolkien" title="Writer"></crew>
+			<crew name="Fran Walsh" title="Writer"></crew>
+		</crews>
+	</movie>
+</movies>			

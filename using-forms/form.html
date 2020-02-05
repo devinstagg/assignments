@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<h1>Forms & More</h1>
+		<section>
+			<h2>Registration Form</h2>
+		<form>
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname" name="firstname" placeholder="John">
+			<br>
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname" name="lastname" placeholder="Denver">
+			<br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="john@denver.com" required>
+			<br>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" placeholder="435-999-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+			<br>
+			<label for="age">Age:</label>
+			<input type="number" id="age" name="age" placeholder="25" min="1" max="110">
+			<br>
+			<label for="password">Enter Password: (Minimum 8 characters)</label>
+			<input type="password" id="password" name="password" minlength="8" required>
+			<br>
+			<label for="passwordverify">Confirm Password: (Minimum 8 characters)</label>
+			<input type="password" id="passwordverify" name="password" minlength="8" required>
+			<br>
+			<button>Submit Form</button>			
+		</form>
+		</section>
+		<section>
+			<h2>Login Form</h2>
+		<form>	
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="john@denver.com" required>
+			<br>
+			<label for="password">Enter Your Password:</label>
+			<input type="password" id="password" name="password" required>
+			<br>
+			<button>Log In</button>
+			<br>
+			<a href=./forgot-password.html>Forgot Password?</a>
+		</form>
+		</section>
+	</body>
+</html>

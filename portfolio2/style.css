@@ -1,0 +1,44 @@
+* {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
+
+body {
+        font-family: Georgia, serif;
+}
+
+.navbar {
+	background: #133257;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 0;
+	align-items: center;
+	height: 100px;
+}
+
+.logo,
+.main-nav-link {
+	color: #ffffff;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+.logo {
+	margin-left: 40px;
+}
+
+.main-nav {
+	display: flex;
+	margin-right: 30px;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+.main-nav li 
+	margin: 0;
+}
+
