@@ -12,29 +12,28 @@ body {
 	background: #000000;
 	font-size: 18px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding-bottom: 0;
 	align-items: center;
-	height: 100px;
+	height: 125px;
 }
 
-.logo,
 .main-nav-link {
 	color: #ffffff;
 	list-style-type: none;
 	text-decoration: none;
+	padding: 15px;
 }
 
 
 .logo {
 	margin-left: 40px;
+	margin-right: auto;
 }
 
 .main-nav {
 	display: flex;
 	margin-right: 30px;
-	flex-direction: row;
-	justify-content: flex-end;
 	list-style-type: none;
 }
 
