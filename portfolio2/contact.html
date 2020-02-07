@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="./style.css">
                 <title>Devin Stagg | Marketer and Aspiring Full-Stack Web Developer</title>
         <script src="https://kit.fontawesome.com/a4cd1755da.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
 </head>
 <body>
 <nav class="navbar">
@@ -25,10 +26,37 @@
         </li>
 </ul>
 </nav>
-<section>
+<section class="hero">
+	<h1>Contact Me</h1>
+	<p>I'd love to chat, unless you are an Arsenal fan.</p>
+	<p> In that case, don't bother filling out the form below 👇</p>
+</section>
 
-
-
+<section class="contact-wrapper">
+<h2>Fill This Form Out ✅</h2>
+<form name="contact" method="POST" data-netlify="true" class="contact-form">
+	<p>
+		<label>Your Name*: <input type="text" name="name" required /></label>
+	</p
+	<p>
+		<label>Your Email*: <input type="email" name="email" required /></label>
+	</p>
+	<p>
+		<label>What Do You Want to Chat About?  <select name="reason" /></label>
+ 		<option value="job">Job Opportunity</option>
+  		<option value="marketing">Freelance Marketing Opportunity</option>
+ 		<option value="development">Freelance Web Development Opportunity</option>
+ 		<option value="sports">Sports (yep, I'm always up for that)</option>
+		</select>
+	</p>
+	<p>
+		<label>Wanna Add a Message?</label>
+		<textarea name="message" class="messagearea"></textarea>
+	</p>
+	<p>
+		<button type="submit" class="contact-button">Let's Chat</button>
+	</p>
+</form>
 </section>
 </body>
 </html>
