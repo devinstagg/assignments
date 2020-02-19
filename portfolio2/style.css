@@ -57,7 +57,7 @@ h2 {
 	margin: 0;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
   .navbar {
 	display: flex;
 	flex-direction: column;
@@ -103,7 +103,7 @@ h2 {
 
 .contact-wrapper {
 	background: #CCDBDC;
-	min-height: 300px;
+	min-height: 500px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	display: flex;
