@@ -159,16 +159,3 @@ textarea {
   cursor: pointer;
   width: 250px;
 }
-
-
-@media screen and (max-width: 600px) {
-
-.hero {
-	min-height: 400px;
-}
-
-.contact-wrapper {
-	min-height: 600px;
-}
-
-}
