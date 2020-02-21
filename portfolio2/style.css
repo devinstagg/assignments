@@ -66,7 +66,7 @@ p {
 }
 
 
-/* Small Display Navigation Bar styling */
+/* Small Display Styling */
 
 @media only screen and (max-width: 900px) {
 
@@ -115,6 +115,19 @@ p {
 		margin: 0;
 	}
 
+	h1 {
+		color: #1A1D1A;
+		font-size: 32px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	
+	h2 {
+		font-size: 24px;
+		color: #1A1D1A;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
 
 }
 
