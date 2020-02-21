@@ -13,15 +13,19 @@ body {
 h1 {
 	color: #1A1D1A;
 	font-size: 48px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 h2 {
 	font-size: 36px;
 	color: #1A1D1A;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 
-p.hero {
+p {
 	margin-left: 5px;
 	margin-right: 5px;
 }
