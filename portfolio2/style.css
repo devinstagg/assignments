@@ -13,21 +13,21 @@ body {
 h1 {
 	color: #1A1D1A;
 	font-size: 48px;
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 h2 {
 	font-size: 36px;
 	color: #1A1D1A;
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 
 p {
-	margin-left: 500px;
-	margin-right: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /* Desktop Navigation Bar styling */
