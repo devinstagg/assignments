@@ -6,7 +6,7 @@
 
 body {
 	font-family: Georgia, serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: #0A1C56;
 }
 
@@ -15,6 +15,7 @@ h1 {
 	font-size: 42px;
 	margin-right: 15px;
 	margin-left: 15px;
+	padding-bottom: 50px;
 }
 
 h2 {
@@ -27,24 +28,6 @@ h2 {
 p {
 	margin-left: 10px;
 	margin-right: 10px;
-}
-
-.row {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.column {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	flex: 1;
-}
-
-.two-column-wrapper {
-	margin: 15px;
 }
 
 /* Desktop Navigation Bar styling */
@@ -84,7 +67,7 @@ p {
 
 /* Small Display Styling */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 896px) {
 	body {
 		margin: 0;
 	}
@@ -134,6 +117,13 @@ p {
 		margin-right: 10px;
 		margin-left: 10px;
 	}
+	.bio {
+		padding-top: 25px;
+		margin-right: 10px;
+	}
+	.portrait {
+		margin-left: 10px;
+	}
 }
 
 /* Contact Form Styling */
@@ -151,6 +141,7 @@ p {
 
 .hero h1 {
 	padding-bottom: 25px;
+	text-align: center;
 }
 
 .contact-form {
@@ -210,4 +201,54 @@ textarea {
 	margin: 4px 2px;
 	cursor: pointer;
 	width: 250px;
+}
+
+/* Home Page Styling */
+
+.hero-about {
+	min-height: 300px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portrait {
+	flex: 50%;
+}
+
+.bio {
+	flex: 50%;
+	font-size: 22px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.bio h3 {
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.bio article {
+	text-align: left;
+}
+
+.about-image {
+	width: 85%;
+	height: auto;
+}
+
+.callout {
+	
 }
