@@ -60,11 +60,6 @@ h2 {
 
 @media only screen and (max-width: 900px) {
 
-	html {
-		margin: 5px 25px;
-	}
-
-
 
 	.main-nav-link {
 		color: #ffffff;
