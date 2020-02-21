@@ -94,6 +94,7 @@ h2 {
 	
 	.main-nav {
 		list-style-type: none;
+		margin-right: 0px;
 	}
 	
 	.main-nav li {
