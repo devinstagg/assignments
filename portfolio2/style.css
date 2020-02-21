@@ -20,6 +20,12 @@ h2 {
 	color: #1A1D1A;
 }
 
+
+p.hero {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 /* Desktop Navigation Bar styling */
 
 .navbar {
