@@ -13,8 +13,8 @@ body {
 h1 {
 	color: #1A1D1A;
 	font-size: 48px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 h2 {
@@ -23,7 +23,6 @@ h2 {
 	margin-right: 10px;
 	margin-left: 10px;
 }
-
 
 p {
 	margin-left: 10px;
@@ -35,14 +34,18 @@ p {
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
-  }
-  
-  .column {
+}
+
+.column {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
 	flex: 1;
-  }
+}
+
+.two-column-wrapper {
+	margin: 15px;
+}
 
 /* Desktop Navigation Bar styling */
 
@@ -79,23 +82,18 @@ p {
 	margin: 0;
 }
 
-
 /* Small Display Styling */
 
 @media only screen and (max-width: 900px) {
-
 	body {
 		margin: 0;
 	}
-
-
 	.main-nav-link {
 		color: #ffffff;
 		list-style-type: none;
 		text-decoration: none;
 		padding: 15px;
 	}
-
 	.navbar {
 		background: #000000;
 		font-size: 12px;
@@ -106,43 +104,36 @@ p {
 		max-width: 100%;
 		height: 25%;
 	}
-	
 	.main-nav-link {
 		color: #ffffff;
 		list-style-type: none;
 		text-decoration: none;
 		padding: 15px;
 	}
-	
 	.logo {
 		align-content: center;
 		margin-bottom: 25px;
 		margin-top: 15px;
 	}
-	
 	.main-nav {
 		list-style-type: none;
 		margin-right: 0px;
 	}
-	
 	.main-nav li {
 		margin: 0;
 	}
-
 	h1 {
 		color: #1A1D1A;
 		font-size: 32px;
 		margin-right: 10px;
 		margin-left: 10px;
 	}
-	
 	h2 {
 		font-size: 24px;
 		color: #1A1D1A;
 		margin-right: 10px;
 		margin-left: 10px;
 	}
-
 }
 
 /* Contact Form Styling */
