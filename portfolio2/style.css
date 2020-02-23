@@ -274,8 +274,13 @@ textarea {
 	 display: flex;
 	 flex-flow: column wrap;
 	 align-items: center;
+	 justify-content: center;
 	 background-color: #f7f7f7;
-	 padding-top: 25px;
-	 padding-bottom: 25px;
+	 padding: 25px; 10px;
+	 text-align: center;
+	 min-height: 200px;
+}
 
+.callout h2 {
+	padding-bottom: 15px;
 }
