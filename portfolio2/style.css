@@ -30,10 +30,30 @@ p {
 	margin-right: 10px;
 }
 
+.purple-cta {
+	background-color: #A4508B;
+	border: none;
+	color: white;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 3px;
+	width: 250px;
+	transition-duration: 0.6s;
+	cursor: pointer;
+}
+
+.purple-cta:hover {
+	background-color: #A4C2A8;
+	font-size: 16px;
+}
+
 /* Desktop Navigation Bar styling */
 
 .navbar {
-	background: #000000;
+	background: #E89E6B;
 	font-size: 18px;
 	display: flex;
 	flex-direction: column;
@@ -51,7 +71,7 @@ p {
 
 .logo {
 	align-content: center;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	margin-top: 15px;
 }
 
@@ -78,7 +98,7 @@ p {
 		padding: 15px;
 	}
 	.navbar {
-		background: #000000;
+		background: #E89E6B;
 		font-size: 12px;
 		display: flex;
 		flex-direction: column;
@@ -193,7 +213,7 @@ textarea {
 }
 
 .contact-button {
-	background-color: #69005A;
+	background-color: #A4508B;
 	border: none;
 	color: white;
 	padding: 16px 32px;
@@ -201,6 +221,7 @@ textarea {
 	margin: 4px 2px;
 	cursor: pointer;
 	width: 250px;
+	border-radius: 3px;
 }
 
 /* Home Page Styling */
@@ -250,5 +271,11 @@ textarea {
 }
 
 .callout {
-	
+	 display: flex;
+	 flex-flow: column wrap;
+	 align-items: center;
+	 background-color: #f7f7f7;
+	 padding-top: 25px;
+	 padding-bottom: 25px;
+
 }
