@@ -299,6 +299,6 @@ textarea {
 
 @media only screen and (min-width: 896px) {
 	.card {
-		flex: 0 1 calc(50%-1em)
+		flex: 0 1 calc(50% - 1em)
 	}
 }
