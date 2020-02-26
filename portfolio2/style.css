@@ -287,6 +287,11 @@ textarea {
 
 /* Work History Page Styling */
 
+.type-of-work {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
 .cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -295,6 +300,17 @@ textarea {
 
 .card {
 	flex: 0 1 100%;
+	background-color: #f7f7f7;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	justify-content: center;
+}
+
+.cards img {
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+
 }
 
 @media only screen and (min-width: 896px) {
