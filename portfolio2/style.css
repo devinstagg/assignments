@@ -304,13 +304,16 @@ textarea {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	justify-content: center;
+	align-content: center;
+	text-align: center;
+	min-height: 300px;
 }
 
 .cards img {
 	width: 200px;
-	height: 200px;
+	height: 100px;
 	object-fit: contain;
-
+	align-items: center;
 }
 
 @media only screen and (min-width: 896px) {
