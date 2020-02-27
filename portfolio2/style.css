@@ -85,7 +85,7 @@ p {
 	margin: 0;
 }
 
-/* Small Display Styling */
+/* Small Display Navigation Styling */
 
 @media only screen and (max-width: 896px) {
 	body {
@@ -99,7 +99,7 @@ p {
 	}
 	.navbar {
 		background: #E89E6B;
-		font-size: 12px;
+		font-size: 14px;
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 25px;
@@ -321,6 +321,10 @@ textarea {
 	margin-left: 20px;
 	margin-right: 20px;
 	max-width: 90%;
+}
+
+.card h4 {
+	font-style: italic;
 }
 
 @media only screen and (min-width: 896px) {
