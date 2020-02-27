@@ -348,3 +348,18 @@ textarea {
 		flex: 0 1 calc(50% - 1em)
 	}
 }
+
+/* Portfolio Page Styling */
+.hero p{
+	line-height: 1.5;
+}
+
+.portfolio {
+	width: 500px;
+	height: 750px;
+	object-fit: contain;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+}
