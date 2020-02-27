@@ -358,6 +358,7 @@ textarea {
 	width: 500px;
 	max-width: 95%;
 	height: 750px;
+	max-height: 75%;
 	object-fit: contain;
 	display: block;
 	padding-top: -25px;
