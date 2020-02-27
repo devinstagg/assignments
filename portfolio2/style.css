@@ -316,6 +316,13 @@ textarea {
 	align-items: center;
 }
 
+.card p {
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	max-width: 90%;
+}
+
 @media only screen and (min-width: 896px) {
 	.card {
 		flex: 0 1 calc(50% - 1em)
