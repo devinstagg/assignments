@@ -327,6 +327,22 @@ textarea {
 	font-style: italic;
 }
 
+.callout-workhistory {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	background-color: #5A5A66;
+	padding: 25px 10px;
+	text-align: center;
+	min-height: 200px;
+}
+
+.callout-workhistory h2 {
+	padding-bottom: 15px;
+	color: #ffffff;
+}
+
 @media only screen and (min-width: 896px) {
 	.card {
 		flex: 0 1 calc(50% - 1em)
