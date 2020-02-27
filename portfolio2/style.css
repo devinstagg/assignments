@@ -357,7 +357,7 @@ textarea {
 .portfolio {
 	width: 500px;
 	max-width: 95%;
-	height: 600px;
+	height: 500px;
 	max-height: 75%;
 	object-fit: contain;
 	display: block;
