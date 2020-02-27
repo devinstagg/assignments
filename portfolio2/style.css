@@ -357,11 +357,11 @@ textarea {
 .portfolio {
 	width: 500px;
 	max-width: 95%;
-	height: 750px;
+	height: 600px;
 	max-height: 75%;
 	object-fit: contain;
 	display: block;
-	padding-top: -25px;
+	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -374,6 +374,6 @@ textarea {
 		display: flex;
 		margin-left: auto;
 		margin-right: auto;
-		padding-top: 25px;
+		padding-top: 10px;
 	}
 }
