@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900&display=swap');
-
-html{
+html {
   font-family: Roboto;
   display: flex;
-  
 }
 
 .red {
   background: red;
   width: 401px;
   height: 285px;
-  color:  white;  
+  color: white;
   border-radius: 25px;
 }
 
@@ -44,5 +42,3 @@ html{
   padding-top: 35px;
   font-weight: 500;
 }
-
-

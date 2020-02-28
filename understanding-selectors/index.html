@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
-<html>
-<section class="red">
-<p class="hello">
-  Hello
-</p>
-<p class="title">
-  my name is
-</p>
+  <html>
+  <section class="red">
+    <p class="hello">
+      Hello
+    </p>
+    <p class="title">
+      my name is
+    </p>
 
 
-<section class="white">
-<p class="name">
- Devin
-</p>
-</section>
-</section>
+    <section class="white">
+      <p class="name" id="name">
+
+      </p>
+    </section>
+  </section>
+  <br>
+  <br>
+    <label for="name">Input Your First Name:</label><br>
+    <input type="text" id="name-input">
+    <button onclick='changeName()'>Submit Your Name</button>
+    <button onclick='popUp()'>Then, Show Me a Popup!</button>
+  <script src="scripts.js"></script>
 </body>
-  
+
 
 
 
