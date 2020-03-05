@@ -1,0 +1,27 @@
+{
+  "name": "exercise-boilerplate-node",
+  "version": "1.0.0",
+  "description": "Boilerplate Exercise for NodeJS",
+  "main": "src/index.js",
+  "repository": "https://TylerGarlick@gitlab.com/helio-training/exercises/exercise-boilerplate-node.git",
+  "authors": [
+    "Tyler Garlick <tgarlick@heliotraining.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "code": "^5.2.0",
+    "eslint": "^4.8.0",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "build": "babel src -d dist",
+    "serve": "node ./dist",
+    "test": "mocha test/**/*.test.js"
+  }
+}
