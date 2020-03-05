@@ -14,7 +14,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "code": "^5.2.0",
-    "eslint": "^4.8.0",
+    "eslint": "^4.18.2",
     "mocha": "^5.0.0",
     "nodemon": "^1.12.1"
   },
