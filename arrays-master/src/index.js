@@ -1,38 +1,64 @@
 import Senators from './data/senators'
 
 export const republicans = () => {
-  let republicans = senators.filter(function(senator) {
+  return Senators.filter((senator) => {
     return senator.party == 'Republican';
-  });
+  })
 }
 
 export const democrats = () => {
-  return REPLACE_ME_WITH_CODE
+  return Senators.filter((senator) => {
+    return senator.party == 'Democrat';
+  })
 }
 
 export const independents = () => {
-  return REPLACE_ME_WITH_CODE
+  return Senators.filter((senator) => {
+    return senator.party == 'Independent';
+  })
 }
 
 export const males = () => {
-  return REPLACE_ME_WITH_CODE
+  return Senators.filter((senator) => {
+    return senator.person.gender == 'male';
+  })
 }
 
 export const females = () => {
-  return REPLACE_ME_WITH_CODE
+  return Senators.filter((senator) => {
+    return senator.person.gender == 'female';
+  })
 }
 
 export const byState = (state = 'UT') => {
-  return REPLACE_ME_WITH_CODE
+  return Senators.filter((senator) => {
+    return senator.state == 'UT';
+  })
 }
 
 export const mapping = () => {
-  return REPLACE_ME_WITH_CODE
+  return Senators.map((senator) => {
+    return { firstName: '', lastName: '', party: '', gender: ''}
+  })
 }
-
 export const reducedCount = () => {
-  return REPLACE_ME_WITH_CODE
+  return Senators.reduce((count, senator) => {
+    switch(senator.party) {
+    case 'Republican':
+      count.republican++
+      break
+    case 'Democrat':
+      count.democrat++
+      break
+    case 'Independent':
+      count.independent++
+      break
+    }
+      return count
+
+}, {
+  republican: 0,
+  democrat: 0,
+  independent: 0
+})
 }
-
-
-const REPLACE_ME_WITH_CODE = false

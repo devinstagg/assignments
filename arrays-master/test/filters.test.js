@@ -20,7 +20,7 @@ describe(`Filtering`, () => {
     expect(results[0].party).to.be.equal(PARTY)
   })
   
-  it(`should filter out only democrats`, () => {
+  it(`should filter out only independents`, () => {
     const PARTY = 'Independent'
     const results = Exercise.independents()
     expect(results).to.not.be.false()
