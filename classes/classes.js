@@ -18,7 +18,17 @@ class Dog extends Animal {
         this.sound = sound
         this.name = name
     }
+
+    get name () {
+        return this.name;
+      }
+      set name (Scout) {
+        this.name = Scout;
+      }
 };
 
-const dog1 = new Dog('bark','Buddy') 
+const dog1 = new Dog(bark,Buddy) 
+console.log(dog1)
 dog1.speak()
+console.log(dog1)
+
