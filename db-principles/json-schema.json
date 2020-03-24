@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "User",
+    "description": "A user in the app",
+    "type": "object",
+    "properties":
+    {
+       "name":
+       {
+          "description": "A person's name",
+          "type": "string"
+       },
+       "age":
+       {
+          "description": "A person's age",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 150
+       },
+       "email":
+       {
+            "description": "A person's email address",
+            "type": "string"
+       },
+       "password":
+       {
+           "description": "A person's secure password",
+           "type": "string",
+           "minLength": 8
+       }                                                                               
+    },
+    "required": ["name", "age", "email", "password"]    
+ }
