@@ -1,6 +1,6 @@
-const customers = [
+const users = [
     {
-        user_id: 1,
+        id: 1,
         first_name: "Devin",
         last_name: "Stagg",
         email: "devintest@gmail.com",
@@ -8,7 +8,7 @@ const customers = [
     },
 
     {
-        user_id: 2,
+        id: 2,
         first_name: "Ashley",
         last_name: "Stagg",
         email: "ashleytest@gmail.com",
@@ -16,4 +16,4 @@ const customers = [
     }
 ]
 
-module.export = customers;
+module.exports = users;
